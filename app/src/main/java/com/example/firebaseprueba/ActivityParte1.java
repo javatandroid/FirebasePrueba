@@ -46,7 +46,7 @@ public class ActivityParte1 extends AppCompatActivity {
             }
         };
         dbRef.addValueEventListener(valueEventListener);//Para base de datos en tiempo real
-        dbRef.addListenerForSingleValueEvent(valueEventListener); //Para base de datos de una sola carga
-        dbRef.removeEventListener(valueEventListener); //Destruye la conexión a tiempo real entre el listener y la base de datos
+        //dbRef.addListenerForSingleValueEvent(valueEventListener); //Para base de datos de una sola carga
+        //dbRef.removeEventListener(valueEventListener); //Destruye la conexión a tiempo real entre el listener y la base de datos
     }
 }

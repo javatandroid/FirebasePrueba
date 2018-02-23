@@ -19,6 +19,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void btnEjercicioparte1 (View view){
+        Intent i = new Intent(getApplicationContext(),ActivityEjercicioParte1.class);
+        startActivity(i);
+    }
+
     public void btnparte2 (View view){
         Intent i = new Intent(getApplicationContext(), ActivityParte2.class);
         startActivity(i);
