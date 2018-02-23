@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "679143642589",
+    "firebase_url": "https://miprimeraappjavatstore.firebaseio.com",
+    "project_id": "miprimeraappjavatstore",
+    "storage_bucket": "miprimeraappjavatstore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679143642589:android:602b43120abcd545",
+        "android_client_info": {
+          "package_name": "com.example.firebaseprueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679143642589-k32hjltg9q6b07esjclp8rjdhja5v35c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseprueba",
+            "certificate_hash": "600ee4f3d22918d02e5e6d314020db6bb27589c6"
+          }
+        },
+        {
+          "client_id": "679143642589-cqvs4epr9lvvne2nrndtabfd7smn8o1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJp5ENhusSXswIkVpkf67rZhe1ZI2bAG8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "679143642589-cqvs4epr9lvvne2nrndtabfd7smn8o1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
