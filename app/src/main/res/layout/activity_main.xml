@@ -26,5 +26,11 @@
         android:text="Parte 2"
         android:onClick="btnparte2"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parte 3. Guardar, modificar, eliminar"
+        android:onClick="btnParte3"/>
+
 
 </LinearLayout>

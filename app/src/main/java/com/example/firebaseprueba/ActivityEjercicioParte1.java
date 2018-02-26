@@ -47,9 +47,9 @@ public class ActivityEjercicioParte1 extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 CJugador jug = dataSnapshot.getValue(CJugador.class);
                 tvnombre.setText("Nombre: " + jug.getNombre());
-                tvdorsal.setText("Dorsal: " +jug.getDorsal());
+                tvdorsal.setText("Dorsal: " +jug.getDorsal()+"");
                 tvposicion.setText("Posición: " +jug.getPosicion());
-                tvsueldo.setText("Sueldo: " +jug.getSueldo());
+                tvsueldo.setText("Sueldo: " +jug.getSueldo()+"");
             }
 
             @Override
